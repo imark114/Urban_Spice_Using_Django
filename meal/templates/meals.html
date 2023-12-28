@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row container ms-auto me-auto mt-5">
+        {% for catagori in categories %}
+            <div class="col-md-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{catagori.strCategoryThumb}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{catagori.strCategory}}</h5>
+                      <p class="card-text">{{catagori.strCategoryDescription | truncatewords:10}}</p>
+                      <a href="#" class="btn btn-primary">See Details</a>
+                    </div>
+                  </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content %}

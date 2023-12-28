@@ -1,0 +1,31 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.food_details{
+    width: 40%;
+}
+.food_details h1{
+    color: white;
+    font-size: 54px;
+    font-weight: 800;
+}
+.food_details p{
+    font-size: 20px;
+    color: white;
+}
+.button_div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.food_details button{
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #00000073;
+    border: 2px solid white;
+    color: white;
+}

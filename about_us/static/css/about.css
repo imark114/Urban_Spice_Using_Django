@@ -1,0 +1,16 @@
+.about_detail{
+    background-color: #faf1db;
+}
+.about-text h2{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.about-text p{
+    font-size: 18px;
+    word-spacing: 5px;
+    line-height: 28px;
+}
+.about_image img{
+    height: 100vh;
+}

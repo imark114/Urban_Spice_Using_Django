@@ -1,0 +1,21 @@
+{% extends "base.html" %} 
+{% load static %}
+{% block addCSS %}
+ <link rel="stylesheet"href="{% static "css/about.css" %}">
+{% endblock addCSS %}
+{% block content %}
+
+    <div class="row justify-content-center align-items-center about_detail">
+        <div class="col-md-5 about-text">
+            <h2>Nice to meet you</h2>
+            <p>Hello I'm Rakib Khan. Co-founder of Urban Spice Restaurant
+            I always try to serve the fresh foods for the costomers.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dicta.
+            </p>
+        </div>
+        <div class="col-md-5 about_image">
+            <img class="image-fluid" src="{% static "images/thanks.jpg" %} " alt="##">
+        </div>
+    </div>
+
+{% endblock content %}
